@@ -8,7 +8,6 @@ def BSort(x): #Bubble Sort
                 x[y],x[y+1] = x[y+1],x[y]
 
 def MSort(vector): #Merge Sort
-    #print("Split:",vector)
     if len(vector)>1:
         mid = len(vector)//2
         left, right = vector[:mid], vector[mid:]
@@ -36,7 +35,6 @@ def MSort(vector): #Merge Sort
             vector[k]=right[j]
             j += 1
             k += 1
-    #print("Merge:",vector)
 
 def HMax(x,c): #Heap Sort
     for y in range(int(c/2)-1,-1,-1):
