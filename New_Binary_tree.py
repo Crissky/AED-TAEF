@@ -78,23 +78,7 @@ class BinaryTree:
                 y.setLeft(node)
             else:
                 y.setRight(node)
-            '''
-            if(node.getFather().getLeft() == node):
-                print(node, 'é filho esquerdo de', node.getFather())
-                print(' '*(len(str(node.getKey()))-1), node.getFather())
-                print(' '*(len(str(node.getKey()))-2),' /')
-                print(' '*(len(str(node.getKey()))-2),'/')
-                print(node)
-                
-            else:
-                print(node, 'é filho direito de', node.getFather())
-                print(node.getFather())
-                print(' '*(len(str(node.getKey()))-2),'\\')
-                print(' '*(len(str(node.getKey()))-2),' \\')
-                print(' '*(len(str(node.getKey()))-1), node)
-            '''
-                              
-
+            
     def search(self, key):
         root = self.__root
 
@@ -220,8 +204,3 @@ if(__name__ == '__main__'):
         print(y)#print(y,end=' ')
         tree.insert(y, str(y))
         print(tree)
-
-    #print()
-    #print(tree)
-    #print(tree.mini())
-    #print(tree.maxi())
