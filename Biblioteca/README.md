@@ -33,33 +33,36 @@ Quebra de Página
 
 Windows é o módulo responsável pela interface gráfica, onde algumas variáveis estão contidas no módulo Variables. Essas variáveis são responsáveis pelas fontes e cores usadas na interface. 
  
+**Figura 1 - Tela de Login**
+
 ![Figura 1 - Tela de Login](https://github.com/Crissky/AED-TAEF/blob/master/Biblioteca/Biblioteca%20(Prints)/Tela%20de%20Login.PNG)
 
-**Figura 1 - Tela de Login**
- 
-![Figura 2 - Tela de Cadastro de Usuário](https://github.com/Crissky/AED-TAEF/blob/master/Biblioteca/Biblioteca%20(Prints)/Tela%20de%20Cadastro%20de%20Usu%C3%A1rio.PNG)
 
 **Figura 2 - Tela de Cadastro de Usuário**
- 
- 
-![Figura 3 - Tela de Usuário (Seleção de Categoria)](https://github.com/Crissky/AED-TAEF/blob/master/Biblioteca/Biblioteca%20(Prints)/Tela%20de%20Usu%C3%A1rio%20(Escolha%20de%20Livro%20-%2001).PNG)
+
+![Figura 2 - Tela de Cadastro de Usuário](https://github.com/Crissky/AED-TAEF/blob/master/Biblioteca/Biblioteca%20(Prints)/Tela%20de%20Cadastro%20de%20Usu%C3%A1rio.PNG)
+
 
 **Figura 3 - Tela de Usuário (Seleção de Categoria)**
+
+![Figura 3 - Tela de Usuário (Seleção de Categoria)](https://github.com/Crissky/AED-TAEF/blob/master/Biblioteca/Biblioteca%20(Prints)/Tela%20de%20Usu%C3%A1rio%20(Escolha%20de%20Livro%20-%2001).PNG)
  
-![Figura 4 - Tela de Usuário (Seleção de Livro)](https://github.com/Crissky/AED-TAEF/blob/master/Biblioteca/Biblioteca%20(Prints)/Tela%20de%20Usu%C3%A1rio%20(Escolha%20de%20Livro%20-%2002).PNG)
 
 **Figura 4 - Tela de Usuário (Seleção de Livro)**
- 
- 
-![Figura 5 - Tela do Administrador](https://github.com/Crissky/AED-TAEF/blob/master/Biblioteca/Biblioteca%20(Prints)/Tela%20de%20ADM.PNG)
+
+![Figura 4 - Tela de Usuário (Seleção de Livro)](https://github.com/Crissky/AED-TAEF/blob/master/Biblioteca/Biblioteca%20(Prints)/Tela%20de%20Usu%C3%A1rio%20(Escolha%20de%20Livro%20-%2002).PNG)
+
 
 **Figura 5 - Tela do Administrador**
  
-![Figura 6 - Tela de cadastro de livros](https://github.com/Crissky/AED-TAEF/blob/master/Biblioteca/Biblioteca%20(Prints)/Tela%20de%20Cadastro%20de%20Livros.PNG)
+![Figura 5 - Tela do Administrador](https://github.com/Crissky/AED-TAEF/blob/master/Biblioteca/Biblioteca%20(Prints)/Tela%20de%20ADM.PNG)
+
 
 **Figura 6 - Tela de cadastro de livros**
  
- 
+![Figura 6 - Tela de cadastro de livros](https://github.com/Crissky/AED-TAEF/blob/master/Biblioteca/Biblioteca%20(Prints)/Tela%20de%20Cadastro%20de%20Livros.PNG)
+
+
 ##### Login 
 
 As senhas dos usuários não são armazenadas no banco de dados, o que fica armazenado é o hash para comparação no momento do login. O responsável pelo armazenamento e comparação é o módulo Bibliotec_dynamic_table, que utiliza o módulo CripHash para gerar o hash. O hash gerado consiste em sete blocos de seis caracteres que representa um número inteiro em base quarenta e dois, o módulo Base42 responsável por converter o hash da base dez para a base quarenta e dois utilizando o alfabeto: 0 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Δ Θ Π Σ Ψ Ω. 
