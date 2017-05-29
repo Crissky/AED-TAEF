@@ -1,13 +1,13 @@
-# Edson Fagner da Silva Cristovam
+<h1 align="center"> Edson Fagner da Silva Cristovam </h1>
 
-### Algoritmos e Estrutura de Dados - BSI – 2016.2 
+<h3 align="center"> Algoritmos e Estrutura de Dados - BSI – 2016.2 </h3>
 
-### Professor Tiago Alessandro Espinola Ferreira 
+<h3 align="center"> Professor Tiago Alessandro Espinola Ferreira </h3>
 
-### Universidade Rural Federal de Pernambuco, Recife, PE 
+<h3 align="center"> Universidade Rural Federal de Pernambuco, Recife, PE </h3>
  
  
-## Biblioteca: Verificando Livros 
+<h2 align="center"> Biblioteca: Verificando Livros </h2>
 
 *O objetivo do programa é ser um banco de dados que armazena o cadastro de alunos, livros e o empréstimo dos livros para os alunos cadastrados.*
  
