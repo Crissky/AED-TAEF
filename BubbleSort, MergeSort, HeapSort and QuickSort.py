@@ -69,9 +69,10 @@ def PQSort(x,p,r): #Quick Sort
     x[i+1],x[r] = x[r],x[i+1]
     return i+1,p,r #x[:i],x[i:]
 
-print(h)
-#QSort(h,0,len(h)-1)
-#HSort(h)
-#BSort(h)
-MSort(h)
-print(h)
+if(__name__ == '__main__'):
+    print(h)
+    #QSort(h,0,len(h)-1)
+    #HSort(h)
+    #BSort(h)
+    MSort(h)
+    print(h)
